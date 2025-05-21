@@ -1,6 +1,8 @@
-export const frontpage = defineType({
+import { defineField, defineType } from "sanity";
+
+export default defineType({
   name: 'frontpage',
-  title: 'Frontpage',
+  title: 'Forside',
   type: 'document',
   fields: [
     defineField({

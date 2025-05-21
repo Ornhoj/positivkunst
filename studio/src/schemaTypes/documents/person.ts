@@ -1,6 +1,6 @@
 import { defineField, defineType } from 'sanity';
 
-export const person = defineType({
+export default defineType({
   name: 'person',
   title: 'Person Info',
   type: 'document',

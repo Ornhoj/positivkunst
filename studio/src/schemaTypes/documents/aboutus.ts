@@ -1,8 +1,8 @@
 import { defineField, defineType } from 'sanity';
 
-export const aboutus = defineType({
+export default defineType({
   name: 'aboutus',
-  title: 'Om os',
+  title: 'Om-os',
   type: 'document',
   fields: [
     defineField({
@@ -23,7 +23,7 @@ export const aboutus = defineType({
   ],
   preview: {
     select: {
-      title: 'Om os',
+      title: 'Om-os',
     },
   },
 });
