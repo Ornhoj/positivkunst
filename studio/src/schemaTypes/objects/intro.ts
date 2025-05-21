@@ -5,7 +5,7 @@ import { defineField, defineType } from 'sanity';
  * Learn more: https://www.sanity.io/docs/schema-types
  */
 
-export const intro = defineType({
+export default defineType({
   name: 'intro',
   title: 'Intro',
   type: 'object',

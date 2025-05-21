@@ -1,7 +1,7 @@
 import {defineField, defineType} from 'sanity'
 import {TextIcon} from '@sanity/icons'
 
-export const infoSection = defineType({
+export default defineType({
   name: 'infoSection',
   title: 'Info Section',
   type: 'object',

@@ -5,7 +5,7 @@ import { defineField, defineType } from 'sanity';
  * Learn more: https://www.sanity.io/docs/schema-types
  */
 
-export const imageText = defineType({
+export default defineType({
   name: 'imageText',
   title: 'Billede og text',
   type: 'object',
