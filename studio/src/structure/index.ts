@@ -19,7 +19,8 @@ export const structure: StructureResolver = (S: StructureBuilder) =>
         .filter((listItem: any) => !DISABLED_TYPES.includes(listItem.getId()))
         // Pluralize the title of each document type.  This is not required but just an option to consider.
         .map((listItem) => {
-          return listItem.title(pluralize(listItem.getTitle() as string))
+          return listItem.title(listItem.getTitle() as string)
+          // return listItem.title(pluralize(listItem.getTitle() as string))
         }),
       // Settings Singleton in order to view/edit the one particular document for Settings.  Learn more about Singletons: https://www.sanity.io/docs/create-a-link-to-a-single-edit-page-in-your-main-document-type-list
       S.listItem()
